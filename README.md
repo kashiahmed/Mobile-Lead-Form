@@ -3,7 +3,7 @@ Welcome to Kashi's Mobile Lead Form App
 
 Hi, 
 
-I am Kashif Ahmed (Kashi), a Salesforce Evangelist. This is my first Mobile App on Salesforce.com platform using Visual Force Page, jQuery, HTML, and CSS for the submission to Mobile Developer Challenge 2013. 
+I am Kashif Ahmed a.k.a. Kashi, a Salesforce Evangelist. This is my first Mobile App on Salesforce.com platform using Visual Force Page, jQuery, HTML, and CSS for the submission to Mobile Developer Challenge 2013. 
 <br>
 I wanted to participate in the 2013 Mobile Developer Challenge and it was hard to come up with something in last two days prior to submission. Thus, I thought I'd put together a small mobile lead form submission app in a single org so it's convenient for you to try as well.
 <br>
@@ -14,10 +14,11 @@ NOTE: this is for competition purposes only, is offered as is without warranty. 
 [Install into a dev org from this unmanaged package.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua1n)
 
 If you have an example you'd like to see (or contribute), go for it.
+<br>
 Mobile Lead Form Setup:
 ![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/Mobile_Lead_Form_Setup.jpg "Optional title")
 Mobile Lead Form on iPhone
 ![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/web%20to%20lead.png "Optional title")
 
-Designed and Developed by @KashifAhmed
+Designed and Developed by <a href="http://www.twitter.com/KashifAhmed">@KashifAhmed </a><br>
 ![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/webiderforcelogo.png "Optional title")
