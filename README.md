@@ -18,7 +18,7 @@ If you have an example you'd like to see (or contribute), go for it.
 Mobile Lead Form Setup:
 ![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/Mobile_Lead_Form_Setup.jpg "Optional title")
 Mobile Lead Form on iPhone
-![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/web%20to%20lead.png "Optional title")
+![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/MLForm_iphone01.jpg "Optional title")
 
 Designed and Developed by <a href="http://www.twitter.com/KashifAhmed">@KashifAhmed </a><br>
 ![Screenshot](https://raw.github.com/kashiahmed/Mobile-Lead-Form/master/screenshots/webiderforcelogo.png "Optional title")
