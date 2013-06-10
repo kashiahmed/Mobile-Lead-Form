@@ -14,9 +14,11 @@ NOTE: this is for competition purposes only, is offered as is without warranty. 
 [Click HERE for Mobile Lead Form Overview Video URL: http://bit.ly/mobileleadform ] (http://bit.ly/mobileleadform)
 
 
-[Install into a dev org from this unmanaged package.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua1s) 
+[Install into a dev org from this unmanaged package.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2b) 
 <br>
-URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua1s
+URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2b
+
+(Note: To install it in your Sandbox replace "login.salesforce.com" to "test.salesforce.com" in the above url.) 
 
 If you have an example you'd like to see (or contribute), go for it.
 <br>
