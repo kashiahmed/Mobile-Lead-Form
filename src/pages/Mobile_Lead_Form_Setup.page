@@ -13,7 +13,7 @@
         on "How to Setup Lead Form As a Public Site". In addition, please watch 2 mins Demo video below. 
         </p> 
        
-        <p><font color='blue'> Please make sure you have Web-T-Lead functionality turn on in your org, in order to have Mobile Lead Form working.</font> <br />
+        <p><font color='RED'> Please make sure you have Web-T-Lead functionality turn on in your org, in order to have Mobile Lead Form working.</font> <br />
            Following are the steup to make sure Web-To-Lead is enabled! <br /><br />
            1. Click on the Top Right drop down where your name shows up and Click on Setup <br />
            2. Go to App Setup Section > Customize > Leads > Click Web-to-Lead <br />
@@ -37,7 +37,7 @@
     
     <apex:pageBlock title="Mobile Lead Form Overview / Demo">
          <p>
-         <iframe width="560" height="315" src="http://www.youtube.com/embed/5iDcQKCX1JQ" frameborder="0" allowfullscreen="true"></iframe>
+         <iframe width="560" height="315" src="http://www.youtube.com/embed/yohwcu-2Rv8" frameborder="0" allowfullscreen="true"></iframe>
          </p>
     </apex:pageBlock>
     
