@@ -11,12 +11,12 @@ I have also added the instructions on how you can make it a public site to bypas
 
 NOTE: this is for competition purposes only, is offered as is without warranty.  Do not install into a production org.  (Seriously: go get a [free Dev Org](http://developer.force.com/join).)
 
-[Click HERE for Mobile Lead Form Overview Video URL: http://bit.ly/mobileleadform ] (http://bit.ly/mobileleadform)
+[Click HERE for Mobile Lead Form Overview Video URL: http://bit.ly/MobileLeadForm ] (http://bit.ly/MobileLeadForm)
 
 
-[Install into a dev org from this unmanaged package.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2b) 
+[Install into a dev org from this unmanaged package.](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2l) 
 <br>
-URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2b
+URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tU0000000Ua2l
 
 (Note: To install it in your Sandbox replace "login.salesforce.com" to "test.salesforce.com" in the above url.) 
 
