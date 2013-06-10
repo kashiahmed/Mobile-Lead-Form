@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>27.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <description>This page describes the details of jQuery Mobile Lead Form on how to make it accessible via public url or site</description>
+    <label>Mobile Lead Form Setup</label>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>npsf101</namespace>
+    </packageVersions>
+</ApexPage>

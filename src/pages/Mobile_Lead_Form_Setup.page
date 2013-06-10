@@ -1,0 +1,82 @@
+<apex:page >
+
+ 
+    <apex:pageBlock title="About Mobile Lead Form">
+        <p>
+         <img src="http://www.webidercrm.com/assets/img/web2lead.png" style="float:right;" />
+         Mobile Lead Form application is a device agnostic Visual Force and jQuery Mobile based lead capture form for any mobile device. <br />
+        It allows end user to submit lead information via any of their mobile devices. The responsive design format the forms the form in accordance to device size. <br />
+        </p>
+        <p>
+        Mobile Lead Form is TOUCH enabled and will work with Salesforce.com Touch and Native app as well. It adhers to Salesforce security guidelines for authentication. <br />
+        However, if you want your Mobile Lead Form to be accessible via World Wide Web (WWW) without authentication to allow anyone to submit the lead, Please see section below  
+        on "How to Setup Lead Form As a Public Site". In addition, please watch 2 mins Demo video below. 
+        </p> 
+       
+        <p><font color='blue'> Please make sure you have Web-T-Lead functionality turn on in your org, in order to have Mobile Lead Form working.</font> <br />
+           Following are the steup to make sure Web-To-Lead is enabled! <br /><br />
+           1. Click on the Top Right drop down where your name shows up and Click on Setup <br />
+           2. Go to App Setup Section > Customize > Leads > Click Web-to-Lead <br />
+           3. Make sure under "Web-to-Lead Settings" the check mark is CHECKED for "Web-to-Lead Enabled" <br />
+           4. If it is NOT enabled then click on "Edit" <br />
+           5. Check the "Web-to-Lead Enabled" check box <br />
+           6. Select the default lead creator <br /> 
+           7. Click Save <br />     
+        </p>
+       
+          <br />
+        <p>Note: <a href="http://twitter.com/KashifAhmed">@KahifAhmed</a> put this together for <a href="http://events.developerforce.com/en/contests/challenge2013"> The Salesforce Mobile Developer Challenge 2013 </a>. <br />
+           <b>This is for competition purposes only, is offered as is without warranty. Do not install into a production org. </b>
+           </p>
+        <p>Did you find this helpful? Please tell a friend about it.</p>
+        <p>Suggestions? Issues? Hit the Twitter<a href="https://twitter.com/KashifAhmed" target="_blank"> <font color='blue'>@KashifAhmed </font></a></p>
+        
+       
+    </apex:pageBlock>
+    
+    
+    <apex:pageBlock title="Mobile Lead Form Overview / Demo">
+         <p>
+         <iframe width="560" height="315" src="http://www.youtube.com/embed/5iDcQKCX1JQ" frameborder="0" allowfullscreen="true"></iframe>
+         </p>
+    </apex:pageBlock>
+    
+    <apex:pageBlock title="Mobile Lead Form GitHub Repository Code">
+         <p>
+          <a href="https://github.com/kashiahmed/Mobile-Lead-Form.git" target="_blank"><font color='blue'>Get our complete source code from github</font></a> 
+         </p>
+    </apex:pageBlock>
+ 
+    <apex:pageBlock title="Mobile Lead Form Setup as Public Site">
+    <font color='brown'> Note: By using this method there will not be any authentication required and anyone with the link should be able to access the Mobile Lead Form and submit the lead to your Salesforce.com org. </font> <br />
+        <h2>How To Setup your Mobile Lead Form Page as a Public Site </h2>
+     <p><font color='blue'> Pre-Requisite: Please make sure you have Web-T-Lead functionality turn on in your org, in order to have Mobile Lead Form working. (See steps above) </font> <br />
+           Following are the steup to make sure Mobile Lead Form is setup as public site! <br /><br />
+           1. Click on the Top Right drop down where your name shows up and Click on Setup <br />
+           2. Goto App Setup > Develop > Sites <br />
+           3. Select your site domain, remember, you can't change it afterwards. <br />
+           4. Click on 'New' <br />
+           5. Create a new Site and fill the fields like label, name, description, <b>Must check the "Active" checkbox</b> use Active Site Home Page and Select <b>"Mobile Lead Form"</b> visual force page.  <br />
+           6. Save the Setting and click on your site.com URL to access this site via public url <br />
+           7. Make a NOTE of your site url, as you can either share that URL with your audience or give this to  your web team to forward your website lead page to this public Salesforce site <br />
+           8. For example: We have http://www.kashifahmed.com/mobileleadform forward to "http://kashidemo-developer-edition.na12.force.com/mobileleadform" Salesforce.com public site <br />
+           9. Enjoy! as you have successfully setup a public site for your new Mobile Lead Form to capture lead submission from your site. <br />
+     </p>
+           <br />
+           Following is the screen shot of your Site Setup! <br />
+    <center> <apex:image url="{!$Resource.MLForm_Site_Setup}" width="700" height="500"/> </center>
+    </apex:pageBlock>
+
+    <apex:pageBlock title="Note to Admins and Developers">   
+       
+     <p>We recommend installing this app in your Sandbox or DEV org first.</p>
+        <p> <a href="http://developer.force.com/join" target="_blank"><font color='blue'>Get a FREE Dev Org </font></a>.  They're fast free and easy.</p>
+        <p> For additional help and support, please feel free to contact WebiderCRM via email <a href="mailto:contact@webidercrm.com" target="_blank"><font color='blue'>contact@webidercrm.com </font></a> </p>
+        <p> or Hit the Twitter <a href="https://twitter.com/KashifAhmed" target="_blank"> <font color='blue'>@KashifAhmed </font></a></p>
+        <p><a href="http://www.webidercrm.com" target="_blank"><font color='blue'>WebiderCRM </font></a> (A Webider LLC DBA) </p>
+    </apex:pageBlock>
+
+   
+      
+
+</apex:page>

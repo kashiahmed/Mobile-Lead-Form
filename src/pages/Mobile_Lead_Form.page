@@ -1,0 +1,173 @@
+<apex:page docType="html-5.0"  showHeader="ture" sidebar="false"      >     
+
+   
+    <apex:stylesheet value="//ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/jquery.mobile-1.3.0.min.css"/>
+    <apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"/>
+    <apex:includeScript value="//ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/jquery.mobile-1.3.0.min.js"/>
+   
+   <head>
+        <title>Mobile Lead Form by WebiderCRM (A Webider LLC DBA)</title>
+        <meta name="author" content="Kashif (Kashi) Ahmed - WebiderCRM"/>
+        <link rel="author" href="https://plus.google.com/100049798797079276595"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <style>
+      img {
+          width: 320px;
+          max-width: 100%;
+        }
+    .ui-btn-inner {
+        padding-right: 15px;
+        padding-left: 12px;
+        }
+    label.error {
+        color: red;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.4;
+        margin-top: 0.5em;
+        width: 100%;
+        float: none;
+       }
+
+        @media screen and (orientation: portrait){
+                label.error { margin-left: 0; display: block; }
+        }
+
+        @media screen and (orientation: landscape){
+                label.error { display: inline-block; margin-left: 22%; }
+        }
+
+        em { color: red; font-weight: bold; padding-right: .25em; }
+    </style>
+    </head>
+
+    <body>    
+        <div data-role="page" id="page1" data-theme="b" >                
+            <div data-role="header" data-position="fixed">
+             
+                <h2>Mobile Lead Form</h2>
+             
+            </div>
+            <div data-role="content" id="contactList">            
+               <div data-role="content">
+       
+       <center>  
+            <a href="http://www.webidercrm.com" >       
+                <img  src="http://www.webidercrm.com/assets/img/crm-logo.png"/>
+            </a>
+    
+        </center>
+               <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"   id="form"   data-ajax="true"     method="POST">
+               <input type="hidden" name="oid" value="{!$organization.id}"/>
+             <input type="hidden" name="retURL" value="http://kashidemo-developer-edition.na12.force.com/mobileleadform/#success"/>
+         
+                <div data-role="fieldcontain">
+                    <label for="fName">First Name:</label>
+                    <input name="first_name" id="fName" placeholder="First Name" data-clear-btn="true"/>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="lName">Last Name<em>*</em>:</label>
+                    <input name="last_name" id="lName" class="required" required="required" placeholder="Last Name" data-clear-btn="true"/>
+                </div>
+                 <div data-role="fieldcontain">
+                    <label for="email">Email:</label>
+                    <input name="email" id="email" placeholder="email@domain.com" data-clear-btn="true"/>
+                </div>
+                
+                 <div data-role="fieldcontain">
+                    <label for="phone">Phone:</label>
+                    <input name="phone" id="phone" data-clear-btn="true" placeholder="999-99-9999">
+                     <script>
+                    $("#phone").mask("999-99-9999");
+                </script>
+                    </input>
+                </div>
+                
+                <div data-role="fieldcontain">
+                    <label for="company">Company<em>*</em>:</label>
+                    <input name="company" id="company" required="required" data-clear-btn="true"  placeholder="ABC INC"/>
+                </div>
+                
+                 <div data-role="fieldcontain">
+                    <label for="url">Website:</label>
+                    <input name="url" id="url" data-clear-btn="true"  placeholder="www.example.com"/>
+                </div>
+                
+       
+            <div data-role="fieldcontain">
+                    <label for="street">Address:</label>
+                    <input name="street" id="street" data-clear-btn="true"  placeholder="123  Main Street"/>
+                </div>
+                
+                
+                 <div data-role="fieldcontain">
+                    <label for="city">City:</label>
+                    <input name="city" id="city" data-clear-btn="true"  placeholder="Minneapolis"/>
+                </div>                            
+                                
+                 <div data-role="fieldcontain">
+                    <label for="state">State/Province:</label>
+                    <input name="state" id="state" data-clear-btn="true"  placeholder="MN"/>
+                </div>
+                
+                 <div data-role="fieldcontain">
+                    <label for="zip">Zip:</label>
+                    <input name="zip" id="zip" data-clear-btn="true"  placeholder="55401"/>
+                </div>
+                                
+                 <div data-role="fieldcontain">
+                    <label for="country">Country:</label>
+                    <input name="country" id="country" data-clear-btn="true"  placeholder="USA"/>
+                </div>
+                
+                   <div data-role="fieldcontain">
+                    <label for="lead_source">How did you heard about us?:</label>
+                   <select  id="lead_source" name="lead_source">
+<option value="">--None--</option>
+<option value="Web">Web</option>
+<option value="Phone Inquiry">Phone Inquiry</option>
+<option value="Partner Referral">Partner Referral</option>
+<option value="Purchased List">Purchased List</option>
+<option value="Other">Other</option>
+</select>
+                </div>
+                
+                 <div class="ui-body ui-body-b">
+                <center>
+                  <button id="submit" data-role="button" data-icon="check" data-inline="true" data-theme="b" class="save">Submit</button>
+       
+                  <button id="reset" type="reset" data-role="button" data-icon="refresh" data-inline="true" data-theme="b" class="save">Reset</button>
+        
+                     </center>
+              </div>
+
+</form>
+
+            </div>    
+  <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Copyrights (c) 2013 WebiderCRM (A Webider LLC DBA)
+        </h3></div>
+            </div>
+        </div>
+        
+       <div data-role="page" data-theme="b" id="success">
+            <div data-role="header" data-position="fixed">
+                <a href='#page1' id="page1" class='ui-btn-left' data-icon='arrow-l' data-direction="reverse" data-transition="flip">Back</a>
+                <h1>Mobile Mobile Lead Form</h1>
+            </div>
+         <div data-role="content">
+        <h2> Thank you for submitting the lead information. </h2>
+        <p> Some one from the Marketing or Sales department will be in contact with you soon.  </p>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Copyrights (c) 2013 WebiderCRM (A Webider LLC DBA)
+        </h3>
+     </div>
+  </div>
+  
+ </body>  
+    
+
+</apex:page>
